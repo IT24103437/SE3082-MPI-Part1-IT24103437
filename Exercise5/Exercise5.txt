@@ -1,0 +1,7 @@
+Exercise 5.1
+Observation:
+The original program sent and received 42 successfully. In the modified version, rank 0 printed that it sent 42, but rank 1 did not receive it because it was waiting for a message from the wrong source. The program had to be stopped by the 5-second timeout.
+
+Exercise 5.2
+Observation:
+Both the standard-send and buffered-send versions transferred 0, 10, and 20 in order. The sender and receiver lines appeared in a different order because the processes print independently. The buffered-send version kept the three send values unchanged.
