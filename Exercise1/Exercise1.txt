@@ -1,0 +1,1 @@
+Observation: The program ran successfully with two MPI processes. Rank 0 printed “Hello World,” while rank 1 printed the other message. Both showed the same machine name because they ran on the same computer.
