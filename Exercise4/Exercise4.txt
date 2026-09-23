@@ -1,0 +1,1 @@
+Observations: The runtime decreased as the number of MPI processes increased. With four processes, the sum calculation achieved about 3.21 times speedup, while the Pi calculation achieved about 3.73 times speedup. The sum remained correct in every run, and all Pi estimates were close to 3.14159. These results are based on one run per process count.
